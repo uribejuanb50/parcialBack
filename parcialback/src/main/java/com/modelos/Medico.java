@@ -22,7 +22,7 @@ public class Medico {
     private String nombreMedico;
 
     @Column(nullable = false)
-    private String especialidad;
+    private String especialidadMedico;
 
     @Column(nullable = false, unique = true)
     private String correoMedico;
